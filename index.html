@@ -70,18 +70,25 @@
             <dt>Python</dt>
             <dd>High-level programming language for general-purpose programming.</dd>
         </dl>
-    </section>
-
+     </section>
+    <!-- Contact Information -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <form >
-            <label>Name:</label><label>Mano Periyasamy</label>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
             <br>
-            <label>Email:</label><label>periyasamymano6@gmail.com</label>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
             <br>
-            <label>Phone:</label><label>+91 9344383485</label>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
         </form>
     </section>
-
+<footer>
+        <p>&copy; 2024 Mano Periyasamy</p>
+    </footer>
 </body>
 </html>
